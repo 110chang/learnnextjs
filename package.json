@@ -5,14 +5,19 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next"
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "next start -p 8000"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.2",
+    "isomorphic-unfetch": "^2.0.0",
     "next": "^5.0.0",
     "react": "^16.2.0",
-    "react-dom": "^16.2.0"
+    "react-dom": "^16.2.0",
+    "react-markdown": "^3.1.5"
   }
 }
